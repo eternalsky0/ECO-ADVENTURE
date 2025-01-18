@@ -49,13 +49,13 @@ function showEndScreen() {
 
     if (score >= 4) {
         endMessage.textContent = "Остров спасён! Вы сделали правильные выборы.";
-        endImage.src = "happy_island.png";
+        endImage.src = "#";
     } else if (score >= 2) {
         endMessage.textContent = "Остров частично восстановлен. Ещё есть шанс всё исправить.";
-        endImage.src = "partial_island.png";
+        endImage.src = "#";
     } else {
         endMessage.textContent = "Остров разрушен. Природа нуждается в нашей защите.";
-        endImage.src = "destroyed_island.png";
+        endImage.src = "#";
     }
 
     document.getElementById('fact-screen').classList.add('hidden');
