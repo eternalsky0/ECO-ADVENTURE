@@ -18,7 +18,7 @@ function startGame() {
 
 // Выбор игрока
 function chooseOption(option) {
-    if (option === 1 || option === 2) score += 1; // Положительный выбор
+    if (option === 1 || option === 2) score += 1; 
     showFact();
 }
 
@@ -49,13 +49,13 @@ function showEndScreen() {
 
     if (score >= 4) {
         endMessage.textContent = "Остров спасён! Вы сделали правильные выборы.";
-        endImage.src = "#";
+        endImage.src = "quest/image/6g.jpeg";
     } else if (score >= 2) {
         endMessage.textContent = "Остров частично восстановлен. Ещё есть шанс всё исправить.";
-        endImage.src = "#";
+        endImage.src = "quest/image/7f.jpg";
     } else {
         endMessage.textContent = "Остров разрушен. Природа нуждается в нашей защите.";
-        endImage.src = "#";
+        endImage.src = "quest/image/8b.jpeg";
     }
 
     document.getElementById('fact-screen').classList.add('hidden');
