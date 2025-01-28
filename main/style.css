@@ -69,3 +69,28 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+@media (min-width: 768px) {
+    #game-container {
+        max-width: 600px;
+    }
+
+    .screen {
+        padding: 40px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px 30px;
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+}
