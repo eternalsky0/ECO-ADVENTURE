@@ -407,6 +407,12 @@ body {
     .game-modes {
         grid-template-columns: repeat(3, 1fr);
     }
+    .bins {
+        grid-template-columns: none;
+    }
+    .btn-back.back {
+        position: absolute;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -432,10 +438,6 @@ body {
     }
 
     .controls {
-        grid-template-columns: 1fr;
-    }
-
-    .bins {
         grid-template-columns: 1fr;
     }
 
