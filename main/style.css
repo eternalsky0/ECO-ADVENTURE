@@ -11,6 +11,15 @@ body {
     text-align: center;
 }
 
+.game-logo {
+    width: 150px; /* базовый размер для мобильных */
+    height: auto;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #game-container {
     max-width: 90%;
     width: 100%;
@@ -71,25 +80,30 @@ footer a:hover {
 }
 
 @media (min-width: 768px) {
+    .game-logo {
+        width: 200px; 
+        margin-bottom: 20px;
+    }
+    
     #game-container {
         max-width: 600px;
     }
-
+    
     .screen {
         padding: 40px;
     }
-
+    
     h1 {
         font-size: 32px;
     }
-
+    
     button {
         width: 100%;
         padding: 15px 30px;
         font-size: 18px;
         margin: 10px 0;
     }
-
+    
     footer {
         font-size: 16px;
     }
